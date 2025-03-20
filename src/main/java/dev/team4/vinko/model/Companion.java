@@ -21,7 +21,7 @@ public class Companion {
     private Long id;
     private String name;
     private Integer age;
-    private String gender;
+    private String email;
     private String description;
     private String photoUrl;
     private Double hourlyRate;
@@ -47,11 +47,11 @@ public class Companion {
     public Companion() {
     }
 
-    public Companion(Long id, String name, Integer age, String gender, String description, Double hourlyRate, Double rating) {
+    public Companion(Long id, String name, Integer age, String email, String description, Double hourlyRate, Double rating) {
         this.id = id;
         this.name = name;
         this.age = age;
-        this.gender = gender;
+        this.email = email;
         this.description = description;
         this.hourlyRate = hourlyRate;
         this.rating = rating;

@@ -44,7 +44,7 @@ public class CompanionController {
         return repository.findById(id).map(existingCompanion -> {
             existingCompanion.setName(updatedDTO.name());
             existingCompanion.setAge(updatedDTO.age());
-            existingCompanion.setGender(updatedDTO.gender());
+            existingCompanion.setEmail(updatedDTO.email());
             existingCompanion.setDescription(updatedDTO.description());
             existingCompanion.setHourlyRate(updatedDTO.hourlyRate());
 
@@ -57,7 +57,7 @@ public class CompanionController {
             companion.getId(),
             companion.getName(),
             companion.getAge(),
-            companion.getGender(),
+            companion.getEmail(),
             companion.getDescription(),
             companion.getHourlyRate(),
             companion.getRating()

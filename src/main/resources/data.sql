@@ -13,17 +13,17 @@ INSERT INTO elderly_user (id, name, email, phone) VALUES
 (10, 'Elena Torres', 'elenat@example.com', '012-345-6789');
 
 -- Insertar datos de prueba para Companion
-INSERT INTO companion (id, name, age, gender, description, photo_url, hourly_rate, rating) VALUES
-(1, 'Alicia Gómez', 30, 'Femenino', 'Amable y con experiencia.', 'https://example.com/photo1.jpg', 20.0, 4.8),
-(2, 'Carlos Ruiz', 40, 'Masculino', 'Le encantan las actividades al aire libre.', 'https://example.com/photo2.jpg', 18.0, 4.7),
-(3, 'Luis Torres', 35, 'Masculino', 'Experto en juegos de mesa.', 'https://example.com/photo3.jpg', 22.0, 4.9),
-(4, 'Diana Herrera', 32, 'Femenino', 'Disfruta de los museos y la historia.', 'https://example.com/photo4.jpg', 19.5, 4.6),
-(5, 'Esteban Castro', 45, 'Masculino', 'Gran contador de historias.', 'https://example.com/photo5.jpg', 21.0, 4.5),
-(6, 'Fernanda Ríos', 29, 'Femenino', 'Apasionada por la música.', 'https://example.com/photo6.jpg', 20.5, 4.9),
-(7, 'Gabriel Vargas', 50, 'Masculino', 'Le encanta cocinar en compañía.', 'https://example.com/photo7.jpg', 23.0, 4.7),
-(8, 'Helena Castillo', 28, 'Femenino', 'Creativa y artística.', 'https://example.com/photo8.jpg', 18.5, 4.6),
-(9, 'Ignacio Peña', 37, 'Masculino', 'Exprofesor, le encantan las discusiones.', 'https://example.com/photo9.jpg', 19.0, 4.8),
-(10, 'Julia Morales', 34, 'Femenino', 'Activa y enérgica.', 'https://example.com/photo10.jpg', 22.5, 4.7);
+INSERT INTO companion (id, name, age, email, description, photo_url, hourly_rate, rating) VALUES
+(1, 'Alicia Gómez', 30, 'juanperez@example.com', 'Amable y con experiencia.', 'https://example.com/photo1.jpg', 20.0, 4.8),
+(2, 'Carlos Ruiz', 40, 'mariagarcia@example.com', 'Le encantan las actividades al aire libre.', 'https://example.com/photo2.jpg', 18.0, 4.7),
+(3, 'Luis Torres', 35, 'robertof@example.com', 'Experto en juegos de mesa.', 'https://example.com/photo3.jpg', 22.0, 4.9),
+(4, 'Diana Herrera', 32, 'analopez@example.com', 'Disfruta de los museos y la historia.', 'https://example.com/photo4.jpg', 19.5, 4.6),
+(5, 'Esteban Castro', 45, 'miguelr@example.com', 'Gran contador de historias.', 'https://example.com/photo5.jpg', 21.0, 4.5),
+(6, 'Fernanda Ríos', 29, 'sofias@example.com', 'Apasionada por la música.', 'https://example.com/photo6.jpg', 20.5, 4.9),
+(7, 'Gabriel Vargas', 50, 'davidm@example.com', 'Le encanta cocinar en compañía.', 'https://example.com/photo7.jpg', 23.0, 4.7),
+(8, 'Helena Castillo', 28, 'lauraj@example.com', 'Creativa y artística.', 'https://example.com/photo8.jpg', 18.5, 4.6),
+(9, 'Ignacio Peña', 37, 'javierd@example.com', 'Exprofesor, le encantan las discusiones.', 'https://example.com/photo9.jpg', 19.0, 4.8),
+(10, 'Julia Morales', 34, 'elenat@example.com', 'Activa y enérgica.', 'https://example.com/photo10.jpg', 22.5, 4.7);
 
 -- Insertar datos de prueba para Activity
 INSERT INTO activity (id, name, description) VALUES
