@@ -1,0 +1,10 @@
+```mermaid
+graph LR
+ElderlyUser --> Review : writes
+Companion --> Review : receives
+Companion --> Notification : receives
+ElderlyUser --> ContactRequest : sends
+Companion --> ContactRequest : receives
+Companion --> Activity : offers
+ElderlyUser --> Activity : selects
+```
